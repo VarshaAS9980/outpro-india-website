@@ -1,0 +1,114 @@
+.site-footer {
+  margin-top: 4rem;
+  background: var(--color-primary);
+  color: #e8eef2;
+  padding: 3rem 1.25rem 0;
+}
+
+.site-footer__newsletter {
+  max-width: var(--max-width);
+  margin: 0 auto 2.5rem;
+  padding: 1.5rem 1.35rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.9fr);
+  gap: 1.25rem;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: none;
+}
+
+.site-footer__newsletter-copy {
+  margin: 0.35rem 0 0;
+  color: rgba(232, 238, 242, 0.78);
+  font-size: 0.95rem;
+}
+
+.site-footer__grid {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.site-footer__brand {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.site-footer__tagline {
+  color: rgba(232, 238, 242, 0.78);
+  margin: 0;
+  max-width: 32ch;
+}
+
+.site-footer__heading {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-accent-soft);
+  margin: 0 0 0.75rem;
+}
+
+.site-footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer__links a {
+  color: rgba(232, 238, 242, 0.9);
+  display: inline-block;
+  padding: 0.2rem 0;
+}
+
+.site-footer__links a:hover {
+  color: #fff;
+}
+
+.site-footer__contact {
+  margin: 0 0 0.75rem;
+  color: rgba(232, 238, 242, 0.9);
+}
+
+.site-footer__fineprint {
+  font-size: 0.85rem;
+  color: rgba(232, 238, 242, 0.65);
+  margin: 0;
+}
+
+.site-footer__bar {
+  max-width: var(--max-width);
+  margin: 2.5rem auto 0;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: rgba(232, 238, 242, 0.65);
+}
+
+@media (max-width: 960px) {
+  .site-footer__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .site-footer__newsletter {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .site-footer__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-footer__bar {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,41 @@
+export const textTestimonials = [
+  {
+    id: 't1',
+    quote:
+      'Outpro.India operated as an extension of our leadership team—clear communication, disciplined delivery, and measurable uplift in pipeline quality.',
+    name: 'Priya N.',
+    role: 'CMO',
+    company: 'Series C SaaS',
+  },
+  {
+    id: 't2',
+    quote:
+      'They modernized our public site without disrupting operations. Performance scores jumped within the first sprint.',
+    name: 'Rahul K.',
+    role: 'Head of IT',
+    company: 'National Financial Services',
+  },
+  {
+    id: 't3',
+    quote:
+      'The design system they shipped is still the backbone of our product marketing pages two years later.',
+    name: 'Elena M.',
+    role: 'VP Product',
+    company: 'Global HR Tech',
+  },
+];
+
+export const videoTestimonials = [
+  {
+    id: 'v1',
+    title: 'Client story — digital transformation',
+    duration: '2:18',
+    note: 'Embed your hosted video (YouTube/Vimeo) via CMS or static config.',
+  },
+  {
+    id: 'v2',
+    title: 'Leadership interview — outcomes and governance',
+    duration: '3:05',
+    note: 'Placeholder for production video asset.',
+  },
+];

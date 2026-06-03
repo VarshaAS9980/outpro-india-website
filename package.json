@@ -1,0 +1,12 @@
+{
+  "name": "outpro-india-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Outpro.India corporate site — React (JS) + CSS client, Node.js API",
+  "scripts": {
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server"
+  }
+}
