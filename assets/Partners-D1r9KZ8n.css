@@ -1,0 +1,1 @@
+.partners-steps{max-width:60ch;color:var(--color-muted);margin:0 0 2rem}.partners-steps li{margin-bottom:.5rem}.partners-cta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;align-items:start}.partners-cta h3{margin-top:0}.partners-cta__lead{margin-top:.5rem;margin-bottom:1rem}@media (max-width: 768px){.partners-cta{grid-template-columns:1fr}}
